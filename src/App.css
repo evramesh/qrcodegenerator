@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.main {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("https://res.cloudinary.com/dcr2fwzyk/image/upload/v1697190530/digital-art-circuit-abstract_aludch.jpg");
+}
+html,
+body {
+  height: 100%;
+}
+.sub {
+  background-color: white;
+  padding: 2em;
+  border-radius: 30px;
+}
+
+.inputF {
+  border: 2px solid #73dac5;
+  height: 30px;
+  width: 300px;
+}
+.qr-code {
+  margin-top: 5em;
+}
+.button {
+  color: black;
+  background-color: #73dac5;
+  border-width: 0px;
+  border-radius: 10px;
+  width: 8em;
+  height: 2em;
+  padding: 5px;
+  margin-left: 3em;
+}
+.button:hover {
+  color: white;
+  border-width: 2px;
+}
